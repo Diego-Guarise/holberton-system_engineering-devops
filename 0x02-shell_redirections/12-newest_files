@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l --sort = tiempo | head -n 10 | cola
+ls -1t | head -10
