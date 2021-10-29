@@ -1,0 +1,111 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   6972     0 ?        Ss   Sep14   0:00 /bin/bash /tmp/run.sh
+root         9  0.0  0.0  12176     0 ?        S    Sep14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        20  0.0  0.0   7236     0 pts/0    Ss+  Sep14   0:00 /bin/bash
+root      1861  0.0  0.0   7236     8 pts/1    Ss+  Sep14   0:00 /bin/bash
+root      2511  0.0  0.0   7236    52 pts/43   Ss+  Oct12   0:00 /bin/bash
+root      2776  0.0  0.0   7236    24 pts/2    Ss+  Sep15   0:00 /bin/bash
+root      2844  0.0  0.0   7236     4 pts/3    Ss+  Sep15   0:00 /bin/bash
+root      5205  0.0  0.0   7236    52 pts/44   Ss   Oct13   0:00 /bin/bash
+root      6343  0.0  0.0  94960    72 pts/44   Sl+  Oct13   0:00 nvim 10-student.py
+root      6345  0.1  0.0 1042756 3452 ?        Ssl  Oct13  38:57 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root      6365  0.0  0.0 211964    16 ?        Sl   Oct13   0:01 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/jedi-language-server
+root      6366  0.0  0.0 643960  2668 ?        Sl   Oct13   0:50 /usr/local/bin/node /root/.config/coc/extensions/node_modules/coc-pyright/node_modules/pyright/langserver.index.js --node-ipc --clientProcessId=6345
+root      6387  0.0  0.0  31212    44 ?        S    Oct13   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages/jedi/inference/compiled/subprocess/__main__.py /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages 3.8.10
+root      6393  0.0  0.0   7236    52 pts/45   Ss+  Oct13   0:00 /bin/bash
+root      6868  0.0  0.0   7236   136 pts/46   Ss   Oct14   0:00 /bin/bash
+root      7330  0.0  0.0  95700   184 pts/46   Sl+  Oct14   0:00 nvim 7-add_item.py
+root      7332  0.1  0.0 1041664 3752 ?        Ssl  Oct14  37:19 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root      7353  0.0  0.0 270524   188 ?        Sl   Oct14   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/jedi-language-server
+root      7354  0.0  0.0 644184  2800 ?        Sl   Oct14   0:47 /usr/local/bin/node /root/.config/coc/extensions/node_modules/coc-pyright/node_modules/pyright/langserver.index.js --node-ipc --clientProcessId=7332
+root      7380  0.0  0.0  27576   188 ?        S    Oct14   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages/jedi/inference/compiled/subprocess/__main__.py /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages 3.8.10
+root      7383  0.0  0.0   7236   124 pts/47   Ss+  Oct14   0:00 /bin/bash
+root      7755  0.0  0.0   7236   136 pts/48   Ss   Oct18   0:00 /bin/bash
+root      7887  0.0  0.0   7236    36 pts/4    Ss   Sep16   0:00 /bin/bash
+root      7967  0.0  0.0   7236     0 pts/5    Ss+  Sep16   0:00 /bin/bash
+root      7983  0.0  0.0  94564    56 pts/4    Sl+  Sep16   0:04 nvim 0-print_dlistint.c
+root      7985  0.1  0.0 769780  2664 ?        Ssl  Sep16  71:26 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root      8197  0.0  0.0   7236    36 pts/6    Ss   Sep16   0:00 /bin/bash
+root      8209  0.0  0.0   7236    36 pts/7    Ss+  Sep16   0:00 /bin/bash
+root      8449  0.0  0.0  95912   184 pts/48   Sl+  Oct18   0:00 nvim rectangle.py
+root      8451  0.1  0.1 1042304 4052 ?        Ssl  Oct18  27:44 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root      8471  0.0  0.0 270784   188 ?        Sl   Oct18   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/jedi-language-server
+root      8472  0.0  0.0 643948  1948 ?        Sl   Oct18   0:35 /usr/local/bin/node /root/.config/coc/extensions/node_modules/coc-pyright/node_modules/pyright/langserver.index.js --node-ipc --clientProcessId=8451
+root      8497  0.0  0.0  27576   188 ?        S    Oct18   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages/jedi/inference/compiled/subprocess/__main__.py /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages 3.8.10
+root      8502  0.0  0.0   7236    60 pts/49   Ss+  Oct18   0:00 /bin/bash
+root      9977  0.0  0.0   7236   136 pts/50   Ss+  Oct18   0:00 /bin/bash
+root      9993  0.0  0.0   7236   180 pts/51   Ss+  Oct21   0:00 /bin/bash
+root     10801  0.0  0.0   7236    56 pts/52   Ss   Oct22   0:00 /bin/bash
+root     10824  0.0  0.0  22540   228 pts/52   S+   Oct22   0:00 vim /root/.config/nvim/init.vim
+root     10825  0.0  0.0   7236   172 pts/53   Ss+  Oct22   0:00 /bin/bash
+root     10873  0.0  0.0   7236     4 pts/54   Ss+  Oct22   0:00 /bin/bash
+root     10954  0.0  0.0   7236   176 pts/55   Ss+  Oct22   0:00 /bin/bash
+root     11067  0.0  0.0   7236    84 pts/56   Ss+  Oct22   0:00 /bin/bash
+root     11163  0.0  0.0   7236   128 pts/57   Ss+  Oct23   0:00 /bin/bash
+root     11837  0.0  0.0  21832    52 pts/6    S+   Sep16   0:00 vim prueba
+root     11838  0.0  0.0   7372    36 pts/8    Ss+  Sep16   0:00 /bin/bash
+root     12018  0.0  0.0   7236   172 pts/58   Ss+  Oct25   0:00 /bin/bash
+root     12072  0.0  0.0   7236   224 pts/59   Ss+  Oct25   0:00 /bin/bash
+root     12097  0.0  0.0   7236   228 pts/60   Ss+  Oct25   0:00 /bin/bash
+root     12465  0.0  0.0   7236   208 pts/61   Ss+  Oct25   0:00 /bin/bash
+root     12758  0.0  0.0   7236   240 pts/62   Ss+  Oct26   0:00 /bin/bash
+root     13411  0.0  0.0   7236    36 pts/9    Ss   Sep16   0:00 /bin/bash
+root     13436  0.0  0.0  22032     0 pts/9    S+   Sep16   0:00 vim test.c
+root     13437  0.0  0.0   7236    32 pts/10   Ss+  Sep17   0:00 /bin/bash
+root     13491  0.0  0.0   7236   284 pts/63   Ss+  Oct28   0:00 /bin/bash
+root     13516  0.0  0.0   7236     0 pts/11   Ss+  Sep17   0:00 /bin/bash
+root     13631  0.0  0.0   7236    36 pts/12   Ss+  Sep17   0:00 /bin/bash
+root     14547  0.0  0.0   7236    36 pts/13   Ss+  Sep19   0:00 /bin/bash
+root     14699  0.0  0.0   7236    36 pts/14   Ss+  Sep20   0:00 /bin/bash
+root     14725  0.0  0.0   7236    36 pts/15   Ss+  Sep20   0:00 /bin/bash
+root     15359  0.0  0.0   7236    36 pts/16   Ss+  Sep20   0:00 /bin/bash
+root     15570  0.0  0.0   7616    56 pts/17   Ss   Sep21   0:00 /bin/bash
+root     15618  0.0  0.0  22112     0 pts/17   S+   Sep21   0:00 vim ftokens.c
+root     15619  0.0  0.0   7236    40 pts/18   Ss   Sep22   0:00 /bin/bash
+root     15716  0.0  0.0  94160     0 pts/18   Sl+  Sep22   0:01 nvim funcionesbasicas.c
+root     15718  0.1  0.0 638188  3356 ?        Ssl  Sep22  58:59 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root     15733  0.0  0.0   7236    36 pts/19   Ss   Sep22   0:00 /bin/bash
+root     16792  0.0  0.0  94736    56 pts/19   Sl+  Sep22   0:00 nvim f1.c
+root     16794  0.1  0.0 703472  3160 ?        Ssl  Sep22  58:22 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root     16809  0.0  0.0   7236    36 pts/20   Ss+  Sep22   0:00 /bin/bash
+root     17505  0.0  0.0   7236    40 pts/21   Ss   Sep23   0:00 /bin/bash
+root     17852  0.0  0.0 220092    20 pts/21   Tl   Sep23   0:00 emacs f1.c
+root     17859  0.0  0.0  22112    20 pts/21   T    Sep23   0:00 vim f1.c
+root     17906  0.0  0.0  94368    60 pts/21   Sl+  Sep23   0:00 nvim f1.c
+root     17908  0.1  0.0 637692  3124 ?        Ssl  Sep23  57:08 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root     17936  0.0  0.0   7236    40 pts/22   Ss   Sep23   0:00 /bin/bash
+root     18129  0.0  0.0  94272    56 pts/22   Sl+  Sep23   0:00 nvim funcionesbasicas.c
+root     18131  0.1  0.0 642200  3348 ?        Ssl  Sep23  56:50 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root     18154  0.0  0.0   7236     4 pts/23   Ss+  Sep23   0:00 /bin/bash
+root     18276  0.0  0.0   7236    32 pts/24   Ss+  Sep23   0:00 /bin/bash
+root     18288  0.0  0.0   7236     0 pts/25   Ss+  Sep27   0:00 /bin/bash
+root     19634  0.0  0.0   7236   380 pts/64   Ss+  05:50   0:00 /bin/bash
+root     19669  0.0  0.0   7236  2312 pts/65   Ss   08:25   0:00 /bin/bash
+root     19722  0.0  0.0   7236  2260 pts/65   S+   08:33   0:00 /bin/bash
+root     19724  0.0  0.0   8892  3132 pts/65   R+   08:33   0:00 ps aux
+root     19725  0.0  0.0   5836  2096 pts/65   S+   08:33   0:00 less
+root     19887  0.0  0.0   7236    40 pts/26   Ss+  Sep27   0:00 /bin/bash
+root     20410  0.0  0.0   7236    40 pts/27   Ss+  Sep28   0:00 /bin/bash
+root     21451  0.0  0.0   7236     4 pts/28   Ss+  Sep28   0:00 /bin/bash
+root     25891  0.0  0.0   7236    32 pts/29   Ss   Sep29   0:00 /bin/bash
+root     25904  0.0  0.0  95912     0 pts/29   Sl+  Sep29   0:00 nvim 4-square.py
+root     25906  0.2  0.0 1042396 3584 ?        Ssl  Sep29  88:44 /usr/local/bin/node --no-warnings /root/.config/nvim/plugged/coc.nvim/build/index.js
+root     25925  0.0  0.0 270780    56 ?        Sl   Sep29   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/jedi-language-server
+root     25926  0.0  0.0 643928  2700 ?        Sl   Sep29   1:37 /usr/local/bin/node /root/.config/coc/extensions/node_modules/coc-pyright/node_modules/pyright/langserver.index.js --node-ipc --clientProcessId=25906
+root     25948  0.0  0.0  27576    56 ?        S    Sep29   0:00 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/bin/python3 /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages/jedi/inference/compiled/subprocess/__main__.py /root/.config/coc/extensions/node_modules/coc-jedi/.venv/lib/python3.8/site-packages 3.8.10
+root     25954  0.0  0.0   7236    48 pts/30   Ss+  Sep29   0:00 /bin/bash
+root     26393  0.0  0.0   7236    44 pts/31   Ss+  Oct04   0:00 /bin/bash
+root     26406  0.0  0.0   7236     0 pts/32   Ss+  Oct04   0:00 /bin/bash
+root     26916  0.0  0.0   7236    52 pts/33   Ss+  Oct04   0:00 /bin/bash
+root     27721  0.0  0.0   7236     4 pts/34   Ss+  Oct04   0:00 /bin/bash
+root     28842  0.0  0.0   7236     0 pts/35   Ss+  Oct05   0:00 /bin/bash
+root     28864  0.0  0.0  15724     0 pts/35   T    Oct05   0:00 python3
+root     29740  0.0  0.0   7236    52 pts/36   Ss+  Oct05   0:00 /bin/bash
+root     30174  0.0  0.0   7236    40 pts/37   Ss+  Oct06   0:00 /bin/bash
+root     30185  0.0  0.0   7236    52 pts/38   Ss   Oct07   0:00 /bin/bash
+root     30444  0.0  0.0  22120    52 pts/38   S+   Oct07   0:00 vim 2-key_index.c
+root     30445  0.0  0.0   7372    52 pts/39   Ss   Oct07   0:00 /bin/bash
+root     30744  0.0  0.0  22120    68 pts/39   S+   Oct07   0:00 vim 4-hash_table_get.c
+root     30745  0.0  0.0   7236    52 pts/40   Ss+  Oct08   0:00 /bin/bash
+root     30990  0.0  0.0   7236    52 pts/41   Ss+  Oct08   0:00 /bin/bash
+root     31558  0.0  0.0   7336    52 pts/42   Ss+  Oct12   0:00 /bin/bash
