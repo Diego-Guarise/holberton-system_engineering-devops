@@ -2,7 +2,7 @@
 # Bash script that displays numbers from 1 to 20 and
 
 i=1
-until [ $i -eq 21 ];do
+while [[ $i -le 20 ]];do
     echo $i
     case $i in
         4) echo bad luck from China;;
