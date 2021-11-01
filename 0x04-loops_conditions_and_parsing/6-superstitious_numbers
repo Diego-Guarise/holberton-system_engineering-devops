@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Bash script that displays numbers from 1 to 20 and
 
-i=0
-until [ $i -eq 20 ];do
+i=1
+until [ $i -eq 21 ];do
     echo $i
     case $i in
         4) echo bad luck from China;;
