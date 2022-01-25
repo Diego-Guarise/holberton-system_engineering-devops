@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+# changed
+sudo -u "$1" whoami
