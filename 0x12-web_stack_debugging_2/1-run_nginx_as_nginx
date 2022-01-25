@@ -7,6 +7,6 @@
 # -Write a Bash script that configures the container to fit the above requirements
 sudo pkill -o apache2
 chmod 744 /etc/nginx/nginx.conf
-sudo sed -i '3i\\n user nginx;' /etc/nginx/nginx.conf
+sudo sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
 sudo sed -i "s/80/8080/g" /etc/nginx/sites-available/default
-sudo nginx -c '/usr/share/nginx/service nginx restart'
+sudo -u nginx service nginx start
