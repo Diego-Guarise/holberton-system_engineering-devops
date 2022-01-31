@@ -22,7 +22,7 @@ if __name__ == '__main__':
     dosome = []
     uid = int(argv[1])
 
-    file = open('{}.CSV'.format(uid), 'w')
+    file = open('{}.csv'.format(uid), 'w')
 
     for tmp in todos_json:
         if tmp['userId'] == uid:
