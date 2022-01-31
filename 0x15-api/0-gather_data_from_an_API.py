@@ -6,7 +6,6 @@ if __name__ == '__main__':
     from sys import argv
     import requests
 
-    
     todos = 'https://jsonplaceholder.typicode.com/todos'
     users = 'https://jsonplaceholder.typicode.com/users'
 
