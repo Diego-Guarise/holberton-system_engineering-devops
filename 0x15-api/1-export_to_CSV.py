@@ -3,6 +3,7 @@
 
 
 if __name__ == '__main__':
+    import csv
     import requests
     from sys import argv
 
@@ -17,14 +18,17 @@ if __name__ == '__main__':
 
     name = users_json[int(argv[1]) - 1]['username']
 
-    donetask = 0
-    tasks = 0
-    dosome = []
     uid = int(argv[1])
+    line = [uid, name, '', '']
+    with open('{}.csv'.format(uid), 'w') as f:
+        writer = csv.writer(f, quoting=csv.QUOTE_ALL)
 
-    file = open('{}.csv'.format(uid), 'w')
-
-    for tmp in todos_json:
-        if tmp['userId'] == uid:
-            file.write('"{}","{}","{}","{}"\n'.format(
-                uid, name, tmp['completed'], tmp['title']))
+        for tmp in todos_json:
+            if tmp['userId'] == uid:
+                if tmp['completed'] is True:
+                    completed = 'True'
+                else:
+                    completed = 'False'
+                line[2] = completed
+                line[3] = tmp['title']
+                writer.writerow(line)
