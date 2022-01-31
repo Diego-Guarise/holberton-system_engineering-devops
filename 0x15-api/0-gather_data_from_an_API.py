@@ -31,4 +31,4 @@ if __name__ == '__main__':
     print('Employee {} is done with tasks({}/{}):'.format(
         name, donetask, tasks))
     for TASK_TITLE in dosome:
-        print('\t{}'.format(TASK_TITLE))
+        print('\t {}'.format(TASK_TITLE))
