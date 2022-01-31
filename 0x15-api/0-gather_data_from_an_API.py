@@ -2,11 +2,11 @@
 """API"""
 
 
-from sys import argv
-import requests
-
-
 if __name__ == '__main__':
+    from sys import argv
+    import requests
+
+    
     todos = 'https://jsonplaceholder.typicode.com/todos'
     users = 'https://jsonplaceholder.typicode.com/users'
 
@@ -31,5 +31,5 @@ if __name__ == '__main__':
 
     print('Employee {} is done with tasks({}/{}):'.format(
         name, donetask, tasks))
-    for truetask in dosome:
-        print('\t{}'.format(truetask))
+    for TASK_TITLE in dosome:
+        print('\t{}'.format(TASK_TITLE))
