@@ -16,7 +16,7 @@ if __name__ == '__main__':
     todos_json = response1.json()
 
     name = users_json[int(argv[1]) - 1]['username']
-    
+
     donetask = 0
     tasks = 0
     dosome = []
@@ -26,4 +26,5 @@ if __name__ == '__main__':
 
     for tmp in todos_json:
         if tmp['userId'] == uid:
-            file.write('"{}","{}","{}","{}"\n'.format(uid, name, tmp['completed'], tmp['title']))
+            file.write('"{}","{}","{}","{}"\n'.format(
+                uid, name, tmp['completed'], tmp['title']))
