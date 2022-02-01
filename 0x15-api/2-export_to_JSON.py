@@ -31,5 +31,5 @@ if __name__ == '__main__':
             lista.append(tmp)
     dic[str(uid)] = lista
 
-    with open('{}.json'.format(uid), 'w') as f:
+    with open('{}.json'.format(str(uid)), 'w') as f:
         json.dump(dic, f)
