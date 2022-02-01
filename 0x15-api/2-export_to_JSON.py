@@ -19,11 +19,11 @@ if __name__ == '__main__':
     name = users_json[int(argv[1]) - 1]['username']
 
     dosome = []
-    uid = int(argv[1])
+    uid = argv[1]
     dic = {}
     lista = []
     for tmp in todos_json:
-        if tmp['userId'] == uid:
+        if tmp['userId'] == int(uid):
             tmp['task'] = tmp.pop('title')
             tmp['username'] = name
             del tmp['id']
