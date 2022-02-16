@@ -19,4 +19,3 @@ def top_ten(subreddit):
             print(item.get("data").get("title"))
     else:
         print("None")
-    
